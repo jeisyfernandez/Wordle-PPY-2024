@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #22903A;
+}
+
+#guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid #ccc;
+}
+
+#guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #69C47D;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.letter {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 6px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block
+}
+
+
+
+.row {
+    margin-bottom: 10px;
+}
+
+.input-area {
+    margin: 30px;
+}
+
+#grid {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
